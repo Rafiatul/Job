@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    font-size: 62.5%;
+}
+
+.row{
+    width: 90%;
+    margin: 0  auto;
+    display: flex;
+    margin-top: 3rem;
+  
+}
+/* custom */
+/* ------------ navbar-start-here ------------ */
+.container{
+    width: 90%; 
+    margin: auto; 
+}
+.navbar-area{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.logo-area{
+    width: 35%; 
+    float: left;
+    overflow: hidden;
+}
+.menu-area{
+    width: 65%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.logo-area img {
+    width: 130px;
+    padding: 18px 0;
+}
+
+.menu-area{
+
+}
+.menu-area ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+    float: right;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    font-size: 17px; 
+    text-decoration: none;
+    color: #242424; 
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    transition: .2s;
+}
+.menu-area ul li a:hover{
+    color: #0082EC;
+}
+/* navbar end */
+.resss {
+	display: none;
+}
+.row .left-section{
+    width: 35%;
+    
+}
+.row .left-section p{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+
+}
+.row .left-section h4{
+    font-size: 1.5rem;
+}
+.row .left-section form{
+    display: block;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+}
+.row .left-section .itemm {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+	width: 100%;
+    padding: .6rem 0;
+}
+.row .left-section form label{
+    margin: 0.4rem;
+    font-size: 1.2rem;
+	display: inline-block;
+	text-align: center;
+	margin-top: 1px;
+	padding: 0;
+	width: 55%;
+}
+.row .left-section form input[type="checkbox"]{
+    display: inline-block;
+    width: 21px !important;
+    height: 21px !important;
+    border: none;
+    
+    
+    box-shadow: none;
+
+    text-align: center;
+ 
+}
+/* test */
+
+
+.row .left-section form input:checked{
+    width: 21px !important;
+    height: 21px !important;
+    
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    
+    box-shadow: none;
+
+    text-align: center;
+   
+    background: #FF8149;
+}
+  
+.row .left-section form  input[type='checkbox']:checked:after {
+    content: '✔';
+    color: rgb(235, 231, 231);
+}
+
+
+
+/* right */
+.row .right-section{
+    width: 80%;
+}
+.row .right-section .part-1 .header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row .right-section .r-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.row .right-section .r-heading p{
+    color: gray;
+    margin-left: 0;
+}
+.row .right-section .r-heading .short-by{
+    display: flex;
+    justify-content: space-between;
+}
+.row .right-section .r-heading .short-by p{}
+.row .right-section .r-heading .short-by select{
+    background-color: transparent;
+    border: 0;
+    font-weight: 600;
+}
+.row .right-section .r-heading .short-by select option{
+    background-color: transparent;
+}
+
+.row .right-section .part-1{
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #b9afb9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+}
+
+.row .right-section .logo-com{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.row .right-section .logo-com img{
+    width: 60px;
+    height: 60px;
+}
+.row .right-section .logo-com .star{
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: #FFB353;
+}
+
+.row .right-section .logo-com .star i.black{
+    color: rgb(87, 81, 81);
+}
+
+.element{
+    width: 80%;
+     padding: 0.6rem 0.3rem; 
+     font-size: 18px;
+}
+
+/* rank job */
+.row .right-section .part-1 .header-part .rank-job{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row .right-section .part-1 .header-part .rank-job .rank{
+    text-align: center;
+    padding: 2rem;
+}
+.row .right-section .part-1 .header-part .rank-job .rank h5{
+    font-size: 2rem;
+    color: #FA6402;
+}
+.row .right-section .part-1 .header-part .rank-job .rank p{
+   margin: 0;
+}
+.row .right-section .part-1 .header-part .rank-job .job{
+    text-align: center;
+    padding: 2rem;
+}
+.row .right-section .part-1 .header-part .rank-job .job h5{
+    font-size: 2rem;
+    color: #FA6402;
+}
+.row .right-section .part-1 .header-part .rank-job .job p{
+    margin: 0;
+}
+
+.row .right-section img{
+    width: 32px;
+    height: 32px;
+}
+.row .right-section p{
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+.row .right-section h2{
+    color: #3B3A40;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.row .right-section ol{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.row .right-section ol li{
+    margin: .6rem 0;
+    padding: 0 .6rem;
+}
+.row .right-section ol li i{
+    color: rgb(59, 56, 56);
+}
+.row .right-section ol li  a{
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+    margin-left: .6rem;
+    font-size: 1rem;
+}
+
+.row .right-section h4{
+    font-size: 20px;
+    color: black;
+    margin: .6rem 0;
+}
+.row .right-section p{
+    color: rgb(59, 56, 56);
+    font-size: 18px;
+}
+
+
+
+
+/* page next */
+.row .right-section .page-next{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row .right-section .page-next .page{}
+.row .right-section .page-next .page ul{
+    font-size: 1rem;
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+.row .right-section .page-next .page ul li{
+    padding: 0rem 1rem;
+}
+.row .right-section .page-next .page ul li a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    
+}
+.row .right-section .page-next .page ul li a:hover{
+    color: black;
+}
+
+.row .right-section .page-next .next{}
+.row .right-section .page-next .next ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+}
+.row .right-section .page-next .next ul li{
+    padding: 0rem 1rem;
+}
+.row .right-section .page-next .next ul li a{
+    text-decoration: none;
+    color: #FA6402;
+    display: inline-block;
+    padding-right: 1rem;
+}
+.row .right-section .page-next .next ul li a:hover{
+    color: black;
+}
+
+/* Fotter */
+footer{
+   
+    width: 90%;
+    margin: 1rem auto;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   list-style: none;
+   font-size: 1rem;
+}
+footer ul li{
+    padding: 0 2rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: gray;
+    transition: .4s;
+
+}
+footer ul li a:hover{
+    color: black;
+}

@@ -1,0 +1,1098 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Manrope', sans-serif; */
+}
+.body-area-hidden{
+    overflow: hidden;
+}
+
+.container{
+    width: 90%; 
+    margin: auto; 
+}
+
+.inner-container{
+    width: 92%;
+    margin: auto;
+}
+
+/* ------------ navbar-start-here ------------ */
+.navbar-area{box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.logo-area{
+    width: 35%; 
+    float: left;
+    overflow: hidden;
+}
+.menu-area{
+    width: 65%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.logo-area img {
+    width: 130px;
+    padding: 18px 0;
+}
+
+.menu-area{
+
+}
+.menu-area ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+    float: right;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    font-size: 17px; 
+    text-decoration: none;
+    color: #242424; 
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    transition: .2s;
+}
+.menu-area ul li a:hover{
+    color: #0082EC;
+}
+
+.register-area{
+
+}
+.register-area ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.register-area ul li{
+    display: inline-block;
+}
+.register-area ul li a{
+    font-size: 17px; 
+    color: #242424; 
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 22px;
+    margin: 20px 0;
+    border: 2px solid #0082EC;
+    transition: .2s;
+}
+.register-area ul li a:hover{
+    color: #0082EC;
+    border: 2px solid #0069be ;
+
+}
+.register-area ul li:last-child a{
+    background: #0082EC;
+    color: #fff;
+    margin-left: 20px;
+    padding: 10px 26px;
+    border: 2px solid #0082EC;
+    transition: .2s;
+
+}
+.register-area ul li:last-child a:hover{
+    background: #0069be;
+    border: 2px solid #0069be ;
+}
+
+/* ------------- responsive for only navbar ------------- */
+@media only screen and (max-width: 768px){
+    .logo-area img {
+        width: 90px;
+        padding: 12px 0;
+        margin-top: 8px;
+    }
+    .menu-area ul li a {
+        font-size: 15px;
+        padding: 2px 8px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .menu-area ul li a {
+        font-size: 13px;
+        padding: 2px 2px;
+    }
+    .logo-area img {
+        width: 71px;
+        padding: 11px 0;
+        margin-top: 8px;
+    }
+    .logo-area {
+        width: 29% !important;
+    }
+    .menu-area {
+        width: 71% !important;
+    }
+}
+  
+/* ------------ navbar-end-here ------------ */
+
+
+/*--------- banner-section-start-here --------- */
+.banner-section{
+    overflow: hidden;
+}
+
+.banner-image{
+    background-image: url('../img/slider1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 125px;
+    position: relative;
+}
+
+.shere-writing{
+    position: absolute;
+    right: 34px; 
+    bottom: 20px;
+
+}
+.shere-writing a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #64626A;
+    background: #fff;
+    display: inline-block;
+    padding: 12px 40px;
+    text-decoration: none;
+    padding-left: 45px !important;
+    position: relative;
+}
+.shere-writing a:hover{
+    background: rgb(255, 236, 236);
+}
+.shere-writing a img{
+    width: 14px; 
+    position: absolute;
+    left: 23px;
+    top: 14px;
+}
+.shere-writing a:nth-child(2){
+    margin-left: -5px;
+    background: #FF8149;
+    color: #fff; 
+    font-weight: 600;
+}
+.shere-writing a:nth-child(2):hover{
+    background: #fa5a15;
+}
+
+
+/*-------- company-profile-area-start-here ------ */
+.company-profile-area{
+    
+}
+.left-sidebar{
+    width: 65%; 
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-top: -97px;
+    background: #fff;
+}
+hr{
+    position: absolute;
+    width: 95.5%;
+    right: 0;
+    margin-top: -4px;
+    border-top: 2px solid #E8E7E8;
+    border-bottom: 0;
+}
+
+.right-sidebar{
+    width: 30%; 
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+}
+/*---------- top-profile-area --------- */
+.top-profile-area{
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    overflow: hidden;
+}
+
+.profile-title{
+    overflow: hidden;
+}
+.profile-t-logo{
+    float: left;
+    overflow: hidden;
+}
+.profile-t-logo img{
+    width: 70px;
+}
+
+.profile-t-name{
+    margin-left: 15px;
+    float: left;
+    overflow: hidden;
+}
+.profile-t-name h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3B3A40;
+    margin: 0;
+    margin-top: 6px;
+}
+.profile-t-name span{
+    font-weight: 500;
+    font-size: 14px;
+    color: #8E8C95;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px
+}
+.profile-t-name .star-icon{
+    float: left;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-left: 5px;
+
+}
+.profile-t-name .star-icon i{
+    font-size: 10.5px; 
+    color: #FFB353;
+
+}
+
+
+.profile-t-revew{
+    float: right;
+    overflow: hidden;
+    display: flex;
+    text-align: right;
+}
+
+.profile-t-revew .revew span,
+.profile-t-revew .jobs span{
+    margin: 0;
+    Weight: 600;
+    Size: 14px;
+    color: #FF8149; 
+    font-weight: 600;
+}
+.profile-t-revew .revew{
+    margin-right: 30px
+}
+.profile-t-revew .revew p,
+.profile-t-revew .jobs p{
+    margin: 0;
+    font-size: 12px; 
+    font-weight: 400;
+    color: #8E8C95; 
+    line-height: 20px;
+}
+
+/*------ company-profile-content-star ----*/
+
+.company-profile-content{
+    padding-left: 4px;
+}
+
+.company-info{
+    padding-top: 34px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.c-info-left{
+    width: 55%;
+    float: left;
+    overflow: hidden;
+}
+.c-info-right{
+    width: 45%; 
+    float: left;
+    overflow: hidden;
+}
+
+.c-single-info{
+    overflow: hidden;
+    padding-bottom: 28px;
+}
+.c-single-info img{
+    width: 17px;
+    float: left;
+    overflow: hidden;
+    margin-right: 9px;
+}
+.c-single-info h5{
+    float: left;
+    overflow: hidden;
+    margin: 0; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3B3A40;
+    display: block;
+}
+.c-single-info p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #64626A;
+    overflow: hidden;
+    margin: 2px;
+    padding-left: 24px;
+}
+
+
+.company-description{
+    
+}
+.company-description h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+}
+.company-description p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3B3A40;
+}
+
+
+/* ----- job-vacancies-area-start-here ----- */
+.job-vacancies-area{
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    overflow: hidden;
+    margin-top: 36px;
+}
+
+.job-vacanci-title{
+    overflow: hidden;
+    padding-bottom: 16px;
+}
+.job-vacanci-title h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+}
+.input-area{
+    padding: 18px 0;
+    overflow: hidden;
+}
+.single-input{
+    width: 40%; 
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.single-input-btn{
+    width: 20%; 
+    overflow: hidden;
+}
+.single-input input{
+    border: 1px solid #E8E7E8;
+    padding: 8px 20px;
+    padding-left: 40px ;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.single-input input:focus-visible{
+    outline: none;
+}
+
+.single-input img{
+    width: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.single-input-btn a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF8149;
+    padding: 8px 20px;
+    border: 1px solid #FF8149;
+}
+.single-input-btn a:hover{
+    border: 1px solid #f35f1f;
+    background: #f35f1f;
+}
+
+
+.job-vacanci-footer{
+    overflow: hidden;
+    padding: 14px 0;
+}
+.job-vacanci-footer span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8C95;
+}
+
+.job-filter{
+    float: right;
+}
+.job-filter select{
+    border: none;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.job-filter a{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8E8C95;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+
+
+/*-------- job-post-area -------- */
+.job-post-area{
+    overflow: hidden;
+}
+.single-job-post{
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 10px;
+    padding-top: 5px
+}
+
+.job-post-t-logo-name{
+    overflow: hidden;
+    padding-top: 22px; 
+    padding-bottom: 10px;
+}
+.job-post-t-logo-name img{
+    width: 26px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.job-post-t-logo-name h5{
+    margin: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.bookmark{
+    float: right;
+}
+.bookmark img{
+    width: 13px;
+    margin-top: -18px;
+}
+
+.job-post-title{
+    overflow: hidden;
+}
+.job-post-title a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3B3A40;
+    text-decoration: none;
+    padding: 12px 0;
+    display: inline-block;
+}
+.job-post-title a:hover{
+    color: #000;
+}
+
+.job-post-info{
+    overflow: hidden;
+    padding: 12px 0;
+}
+.job-info-list{
+
+}
+.job-s-info-1{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+}
+.job-s-info-2,
+.job-s-info-3{
+    width: 22%;
+    float: left;
+    overflow: hidden;
+}
+.job-s-info{
+    float: left; 
+    overflow: hidden; 
+}
+.job-s-info img{
+    width: 14px; 
+    float: left;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.job-s-info p{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #64626A;
+    margin-top: -2px;
+}
+
+.job-post-info span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #B3B1B7;
+    float: right;
+    width: 24%;
+    overflow: hidden;
+}
+
+.job-page-list-area{
+    overflow: hidden;
+    padding-top: 30px;
+}
+.job-page-list ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+.job-page-list ul li{
+    float: left;
+    margin-right: 25px;
+}
+.job-page-list ul li a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8C95;
+    text-decoration: none;
+}
+.job-page-list ul li a:hover,
+.job-page-list ul li .active {
+    color: #3B3A40;
+}
+.job-page-next-prev{
+    float: right;
+}
+.job-page-next-prev a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FA6402;font-family: 'Manrope', sans-serif;
+    margin-left: 50px;
+}
+/*--------- job-vacancies-area-end-here --------- */
+
+
+/* ----------- reviews-section-area-start-here------ */
+
+.reviews-section-area{
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    overflow: hidden;
+    margin-top: 36px;
+}
+
+.job-review-info{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.job-review-digit{
+    float: left;
+    overflow: hidden;
+    padding-right: 16px;
+}
+.job-review-digit h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #3B3A40;
+    margin: 0;
+    margin-top: -2px
+}
+.job-review-perf{
+    float: left;
+    overflow: hidden;
+    text-align: right;
+}
+.job-review-perf i{
+    font-size: 10px;
+    float: left;
+    overflow: hidden;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.job-review-perf select{
+    border: none;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #64626A;
+    display: block;
+}
+.job-review-perf span{
+    font-weight: normal;
+    font-size: 13px;
+    text-align: right;
+    color: #8E8C95;
+}
+
+
+/* ------- reviews-person-area-start-here -------*/
+.reviews-job-person-area{
+    
+}
+.per-reviews-job-post{
+    border-bottom: 2px solid #ebebeb;
+    overflow: hidden;
+    padding: 30px 0;
+
+}
+.post-owner-title{
+    overflow: hidden;
+}
+
+.owner-logo{
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.owner-logo img{
+    width: 48px;
+}
+
+.post-owner-name-review{
+    overflow: hidden;
+}
+
+.owner-name-p{
+    overflow: hidden;
+}
+.owner-name-p h3{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3B3A40;
+    margin: 5px 0;
+    margin-top: 8px;
+    font-family: 'Manrope', sans-serif;
+    float: left;
+    overflow: hidden;
+}
+.owner-name-p span{
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #B3B1B7;
+}
+
+.owner-reviews span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8C95;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.owner-reviews{
+    overflow: hidden;
+}
+.owner-reviews .star-icon{
+    float: left;
+    overflow: hidden;
+}
+.owner-reviews .star-icon i{
+    font-size: 11px; 
+    color: #FFB353;
+}
+.clr-none{
+    color: #D1D0D6 !important;
+}
+.owner-reviews .star-icon i img{
+    width: 12px;
+    margin-right: 24px;
+    margin-left: 4px;
+}
+
+.owner-recommended-area{
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.owner-recommended-area ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+.owner-recommended-area ul li{
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.owner-recommended-area ul li a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #64626A;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;background: #F5F6F9;
+    padding: 8px 16px;
+    padding-left: 30px;
+}
+.owner-recommended-area ul li:first-child a{
+    background: #EFF9F3;
+    color: #36aa5f;
+}
+.not-recommend-bg{
+    color:#FF6161 !important;
+    background: #fce6e6 !important;
+}
+.owner-recommended-area ul li a img{
+    width: 16px;
+    position: absolute;
+    left: 8px; 
+    top: 9px; 
+}
+
+
+.owner-post-title{
+    overflow: hidden;
+    padding-left: 58px;
+    padding-top: 18px; 
+    padding-bottom: 20px;
+}
+.owner-post-title h2{
+    font-size: 16px; 
+    font-weight: 600;
+    color: #3B3A40;
+}
+
+.owner-post-title p{
+    font-size: 14px; 
+    font-weight: 400;
+    color: #3B3A40;
+    line-height: 24px;
+}
+
+.owner-footer{
+    padding-left: 58px;
+    overflow: hidden;
+}
+
+.owner-l{
+    float: left;
+    overflow: hidden;
+}
+.owner-l img{
+    width: 13px; 
+    margin-right: 5px; 
+    margin-bottom: -3px;
+}
+.owner-l span{
+    font-weight: normal;
+    font-size: 13px;
+    color: #8E8C95;
+    
+}
+.owner-r{
+    float: right;
+    overflow: hidden;
+}
+.owner-r a{
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    color: #64626A;
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    margin-left: 12px;
+}
+.owner-r a img{
+    width: 15px;
+    margin-bottom: -3px;
+    margin-right: 8px;
+}
+.owner-r a:nth-child(2){
+    border: 1px solid #FF8149;
+    color: #FF8149; 
+    font-weight: 600;
+}
+
+
+/*------------ ompany-benefits-section-start-here ----------- */
+
+.company-benefits-section{
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    overflow: hidden;
+    margin-top: 36px;
+    padding-bottom: 0;
+    margin-bottom: 70px;
+}
+
+.company-benefits-title{
+    overflow: hidden;
+}
+.company-benefits-title h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Manrope', sans-serif; 
+    margin: 0;
+    line-height: 36px;
+}
+
+.company-benefits-title p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8E8C95;
+    margin: 2px 0;
+}
+
+
+.company-benefits-area{
+    overflow: hidden;
+    padding: 30px 0;
+    padding-bottom: 5px;
+}
+.benefits-left{
+    width: 49%;
+    float: left;
+    overflow: hidden ;
+    margin-right: 2%;
+}
+.benefits-right{
+    width: 49%; 
+    float: left;
+    overflow: hidden;
+}
+.single-benefits-list{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.single-benefits-list img{
+    width: 17px; 
+    float: left;
+    overflow: hidden;
+    margin-right: 10px; 
+}
+.s-b-l-title{
+    overflow: hidden;
+}
+.single-benefits-list h3{
+    float: left;
+    overflow: hidden;
+    margin: 0; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3B3A40;
+}
+.single-benefits-list P{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E8C95;
+    margin-top: -5px;
+    overflow: hidden;
+    padding-left: 27px;
+    margin-top: 8px;
+}
+
+
+/*------- footer-section-------- */
+
+.footer-area{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.footer-logo{
+    width: 35%;
+    float: left;
+    overflow: hidden;
+}
+.footer-logo a img{
+    width: 70px
+}
+
+.footer-menu{
+    width: 65%; 
+    float: left;
+    overflow: hidden; 
+}
+
+.footer-menu ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    float: right;
+}
+.footer-menu ul li{
+    float: left;
+    overflow: hidden; 
+    margin-left: 20px;
+}
+.footer-menu ul li a{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #64626A;
+    text-decoration: none;
+}
+.footer-menu ul li a:hover{
+    color: #000;
+}
+
+.footer-hr hr{
+    width: 100%; 
+}
+
+
+
+
+/*------------- right-sidebar-star-here------------- */
+
+.company-culture-section{
+    overflow: hidden;
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    margin-top: 30px;
+}
+
+.company-culture-info h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+.company-culture-info p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3B3A40;
+    margin: 10px 0;
+}
+.company-culture-info a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FA6402;
+    float: right;
+    display: inline-block;
+}
+.company-culture-info a:hover{
+    text-decoration: underline;
+}
+
+
+.company-culture-video video{
+    margin-top: 20px;
+}
+
+
+.company-social-link-area{
+    overflow: hidden;
+    border: 1px solid #E8E7E8;
+    padding: 26px;
+    margin-top: 30px;
+}
+
+.company-link-info{
+    width: 50%; 
+    float: left; 
+    overflow: hidden;
+}
+.company-social-link{
+    width: 50%; 
+    overflow: hidden;
+    float: left;
+}
+.company-link-info h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+.company-link-info p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #64626A;
+    margin: 0;
+    padding-top: 7px; 
+}
+
+.company-social-link ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    float: right;
+    margin-top: 8px;
+}
+.company-social-link ul li{
+    float: left;
+    margin-left: 5px; 
+}
+.company-social-link ul li a{
+    font-size: 11px; 
+    height: 11px; 
+    width: 11px;
+    line-height: 12px;
+    text-align: center;
+    color: #fff; 
+    display: inline-block;
+    background: #55ACEE;
+    padding: 7px;
+    border-radius: 50%;
+}
+.company-social-link ul li:nth-child(2) a{
+    background: #3B5998;
+}
+.company-social-link ul li:nth-child(3) a{
+    background: #0976B4;
+}

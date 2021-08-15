@@ -1,0 +1,315 @@
+
+@media only screen and (max-width: 1260px){
+
+    .shere-writing a {
+        padding: 12px 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .single-input {
+        width: 37% !important;
+    }
+    .single-input-btn {
+        width: 26% !important;
+    }
+    .job-review-info {
+        width: 36% !important;
+    }
+
+    .job-review-digit {
+        padding-right: 9px !important;
+    }
+    .job-review-digit h2 {
+        font-size: 30px !important;
+    }
+    .owner-recommended-area ul li a {
+        font-size: 12px !important;
+    }
+    .owner-recommended-area ul li {
+        margin-right: 10px !important;
+    }
+    .job-s-info-1 {
+        width: 35% !important;
+    }
+    .job-s-info-2, .job-s-info-3 {
+        width: 24% !important;
+    }
+     .job-s-info-3 {
+        width: 19% !important;
+    }
+    .job-post-info span {
+        width: 22% !important;
+    }
+    .shere-writing a:nth-child(2) {
+        margin-left: -4px !important;
+    }
+    .shere-writing a {
+        padding-left: 44px !important;
+        font-size: 13px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1010px){
+    .shere-writing {
+        position: absolute;
+        right: 14px !important;
+    }
+    .shere-writing a {
+        padding-left: 40px !important;
+    }
+    .shere-writing a:nth-child(2) {
+        margin-left: -5px !important;
+    }
+    .shere-writing a {
+        font-size: 12px !important;
+    }
+    .shere-writing a img {
+        width: 12px !important;
+        left: 20px !important;
+    }
+    .job-s-info p {
+        font-size: 13px !important;
+    }
+    .job-s-info img {
+        width: 12px !important;
+        margin-right: 6px !important;
+    }
+    .job-post-info span {
+        font-size: 13px !important;
+    }
+    .owner-recommended-area ul li a img {
+        width: 13px !important;
+    }
+    .owner-recommended-area ul li a {
+        font-size: 12px !important;
+    }
+    .owner-recommended-area ul li a {
+        padding-left: 25px !important;
+    }
+    .job-page-list ul li a {
+        font-size: 13px !important;
+    }
+    .job-page-list ul li {
+        margin-right: 20px !important;
+    }
+    .job-page-next-prev a {
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+    .left-sidebar {
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+    .company-culture-section {
+        margin-top: 0 !important;
+    }
+    .right-sidebar {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .company-social-link-area {
+        margin-bottom: 30px;
+    }
+    .owner-l {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .banner-image {
+        padding: 98px !important;
+    }
+    .profile-t-logo img {
+        width: 51px !important;
+    }
+    .profile-t-name h3 {
+        font-size: 20px !important;
+        margin-top: 0 !important;
+    }
+    .profile-t-name .star-icon {
+        margin-top: 0 !important;
+    }
+    .profile-t-name span {
+        margin-top: 3px !important;
+    }
+    .top-profile-area,
+    .reviews-section-area,
+    .company-benefits-section{
+        padding: 20px !important;
+    }
+    .c-info-left {
+        width: 60% !important;
+    }
+    .c-info-right {
+        width: 40% !important;
+    }
+    .job-post-title a {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 625px){
+    .c-info-left,
+    .c-info-right {
+        width: 100% !important;
+    }
+    .c-single-info {
+        padding-bottom: 16px !important;
+    }
+    .company-description h3 {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+    .company-description p {
+        font-size: 13px !important;
+        line-height: 21px !important;
+    }
+    .job-vacanci-title h3 {
+        font-size: 15px !important;
+        line-height: 0px !important;
+    }
+    .single-input input {
+        font-size: 13px !important;
+    }
+    .single-input-btn a {
+        font-size: 13px !important;
+    }
+    .job-post-t-logo-name img {
+        width: 22px !important;
+        margin-right: 8px !important;
+    }
+    .job-post-title a {
+        font-size: 15px !important;
+    }
+    .job-post-title a {
+        padding: 8px 0 !important;
+    }
+    .bookmark img {
+        width: 13px !important;
+    }
+    .job-review-digit h2 {
+        font-size: 23px !important;
+    }
+    .job-review-digit {
+        padding-right: 4px !important;
+    }
+    .job-review-perf select {
+        font-size: 13px !important;
+    }
+    .job-review-perf span {
+        font-size: 12px !important;
+    }
+    .job-vacanci-footer span {
+        font-size: 13px !important;
+    }
+    .job-filter select {
+        font-size: 13px !important;
+    }
+    .job-filter a {
+        font-size: 11px !important;
+    }
+    .owner-logo img {
+        width: 37px !important;
+    }
+    .owner-name-p h3 {
+        font-size: 13px !important;
+        margin-top: 0 !important;
+    }
+    .owner-reviews span {
+        font-size: 13px !important;
+        margin-top: 0 !important;
+    }
+    .owner-reviews .star-icon {
+        margin-top: -3px;
+        margin-bottom: 10px;
+    }
+    .owner-reviews .star-icon i {
+        font-size: 10px !important;
+    }
+    .owner-recommended-area ul li a {
+        padding: 8px 8px !important;
+        padding-left: 23px !important;
+    }
+    .owner-post-title,
+    .owner-footer {
+        padding-left: 44px !important;
+    }
+    .owner-post-title h2 {
+        font-size: 15px !important;
+    }
+    .owner-post-title p {
+        font-size: 13px !important;
+    }
+    .owner-r a {
+        font-size: 13px !important;
+    }
+    .owner-post-title {
+        padding-top: 9px !important;
+        padding-bottom: 12px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 414px){
+    .job-vacancies-area,
+    .top-profile-area,
+    .reviews-section-area,
+    .company-benefits-section {
+        padding: 14px !important;
+    }
+    .benefits-left {
+        width: 100% !important;
+    }
+    .benefits-right {
+        width: 100% !important;
+    }
+    .single-benefits-list {
+        margin-bottom: 10px !important;
+    }
+    .company-culture-info h3 {
+        font-size: 15px !important;
+    }
+    .company-culture-info p {
+        font-size: 13px !important;
+    }
+    .company-culture-info a {
+        font-size: 13px !important;
+    }
+    .company-link-info h3 {
+        font-size: 14px !important;
+    }
+    .company-link-info p {
+        font-size: 13px !important;
+        padding-top: 4px !important;
+    }
+    .footer-logo {
+        width: 100% !important;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-menu {
+        width: 100% !important;
+        text-align: center;
+    }
+    .job-page-list ul li a {
+        font-size: 11px !important;
+    }
+    .job-page-list ul li {
+        margin-right: 11px !important;
+    }
+    .job-page-next-prev a {
+        font-size: 11px !important;
+    }
+    .job-page-next-prev a {
+        margin-left: 22px !important;
+    }
+    .job-review-perf {
+        text-align: left !important;
+    }
+}

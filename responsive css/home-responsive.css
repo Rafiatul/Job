@@ -1,0 +1,254 @@
+
+@media only screen and (max-width: 1280px){
+    .profile-title h3 {
+        font-size: 20px !important;
+    }
+    .profile-content ul li {
+        padding-right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .profile-title {
+        width: 100% !important;
+        float: none;
+        text-align: center;
+    }
+    .profile-title h3 {
+        font-size: 24px !important;
+    }
+    .profile-content {
+        width: 100% !important;
+    }
+    .profile-content ul{
+        text-align: center;
+    }
+    .profile-content ul li {
+        float: none !important;
+        display: inline !important;
+    }
+    .banner-content h1 {
+        font-size: 46px !important;
+        line-height: 65px !important;
+    }
+    .banner-content p {
+        font-size: 14px !important;
+    }
+    .banner-content {
+        width: 56% !important;
+    }
+    .banner-image {
+        width: 44% !important;
+    }
+    .banner-content {
+        padding: 40px 0 !important;
+    }
+    .jobs-title h2 {
+        font-size: 41px !important;
+        line-height: 60px !important;
+    }
+    .post-title a {
+        font-size: 17px !important;
+    }
+    .inter-title h2 {
+        font-size: 36px !important;
+    }
+    .discovering-title h2 {
+        font-size: 38px !important;
+    }
+    .footer-widget ul li a {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .post-title a {
+        font-size: 16px !important;
+    }
+    .post-location span {
+        font-size: 12px !important;
+        margin-right: 10px !important;
+        padding-left: 20px !important;
+    }
+    .post-logo-name img {
+        width: 22px !important;
+        margin-right: 4px !important;
+    }
+    .post-logo-name h5 {
+        margin: 0px !important;
+    }
+    .post-logo-name span {
+        font-size: 12px !important;
+    }
+    .single-post {
+        padding: 19px !important;
+    }
+    .discovering-title h2 {
+        font-size: 31px !important;
+    }
+    .discovering-section {
+        padding: 27px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .banner-content h1 {
+        font-size: 30px !important;
+        line-height: 46px !important;
+    }
+    .banner-content p {
+        font-size: 11px !important;
+        line-height: 19px !important;
+    }
+    .banner-content {
+        padding: 17px 0 !important;
+    }
+    .profile-area {
+        padding: 22px 0 !important;
+    }
+    .profile-title h3 {
+        font-size: 24px !important;
+    }
+    .brand-section .brand-title h3 {
+        font-size: 24px !important;
+    }
+    .brand-border {
+        margin: 29px 0 !important;
+    }
+    .jobs-section {
+        padding-top: 0 !important;
+    }
+    .jobs-post-card-area {
+        padding: 32px 0 !important;
+    }
+    .post-title a {
+        font-size: 13px !important;
+        line-height: 23px !important;
+    }
+    .post-logo-name img {
+        width: 17px !important;
+    }
+    .post-location span img {
+        width: 12px !important;
+    }
+    .post-location span {
+        font-size: 11px !important;
+        margin-right: 7px !important;
+        padding-left: 16px !important;
+    }
+    .single-post {
+        min-height: 215px !important;
+    }
+
+    .jobs-title h2 {
+        font-size: 27px !important;
+        line-height: 41px !important;
+    }
+    .inter-title h2 {
+        font-size: 28px !important;
+    }
+    .internships-area {
+        padding-top: 6px !important;
+    }
+    .discovering-title h2 {
+        font-size: 22px !important;
+        line-height: 44px !important;
+    }
+    .discovering-search input {
+        padding-right: 0 !important;
+        margin-top: 35px !important;
+    }
+    .discovering-search i {
+        right: 231px !important;
+        top: 50px !important;
+    }
+    .profile-content ul li a {
+        font-size: 16px !important;
+        margin-top: 15px !important;
+        margin-right: 14px !important;
+        margin-left: 14px !important;
+        line-height: 30px !important;
+    }
+    .profile-content ul li a span {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .profile-content ul li a span::before {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 680px){
+    .profile-content ul li {
+        float: left !important;
+    }
+    .single-post {
+        width: 100% !important;
+        padding: 37px !important;
+        margin-bottom: 25px !important;
+    }
+    .post-logo-name h5 {
+        font-size: 16px !important;
+        margin: 0px !important;
+    }
+    .post-logo-name span {
+        font-size: 14px !important;
+    }
+
+    .post-logo-name img {
+        width: 23px !important;
+        margin-right: 11px !important;
+    }
+    .post-title a {
+        font-size: 19px !important;
+        line-height: 29px !important;
+        padding: 35px 0 !important;
+    }
+    .post-location span {
+        font-size: 14px !important;
+        font-size: 14px !important;
+        padding-left: 20px !important;
+    }
+    .post-location span img {
+        width: 14px !important;
+    }
+    .discovering-title {
+        width: 100% !important;
+    }
+    .discovering-title h2 {
+        font-size: 26px !important;
+    }
+    .discovering-search input {
+        float: none !important;
+    }
+    .discovering-search i {
+        position: absolute;
+        right: 165px !important;
+        top: 55px !important;
+    }
+}
+@media only screen and (max-width: 414px){
+    .footer-menu {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        display: none;
+    }
+    .social-icon {
+        width: 50% !important;
+    }
+    .footer-bottom-menu ul {
+        display: none;
+    }
+    .footer-language {
+        width: 50%;
+    }
+    .discovering-search {
+        width: 59%;
+    }
+    .footer-section {
+        padding-top: 0;
+    }
+}
